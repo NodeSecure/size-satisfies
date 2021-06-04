@@ -1,16 +1,16 @@
 {
-  "name": "size-satisfies",
-  "version": "1.0.0",
+  "name": "@nodesecure/size-satisfies",
+  "version": "1.0.1",
   "description": "Same as SemVer.satisfies but for file size!",
-  "main": "index.js",
+  "exports": "./index.js",
   "scripts": {
-    "test": "esm-tape-runner 'test/**/*.js' | tap-monkey",
-    "lint": " eslint index.js",
-    "check": "cross-env npm run lint && npm test"
+    "test": "cross-env esm-tape-runner 'test/**/*.js' | tap-monkey",
+    "lint": "cross-env eslint index.js",
+    "check": "npm run lint && npm test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fraxken/size-satisfies.git"
+    "url": "git+https://github.com/NodeSecure/size-satisfies.git"
   },
   "files": [
     "index.js",
@@ -25,12 +25,15 @@
     "convert",
     "converter"
   ],
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
   "author": "GENTILHOMME Thomas <gentilhomme.thomas@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fraxken/size-satisfies/issues"
+    "url": "https://github.com/NodeSecure/size-satisfies/issues"
   },
-  "homepage": "https://github.com/fraxken/size-satisfies#readme",
+  "homepage": "https://github.com/NodeSecure/size-satisfies#readme",
   "dependencies": {
     "bytes": "^3.1.0"
   },
