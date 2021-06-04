@@ -1,7 +1,5 @@
-"use strict";
-
 // Require Third-party Dependencies
-const bytes = require("bytes");
+import bytes from "bytes";
 
 // CONSTANTS
 const kOperators = {
@@ -29,4 +27,4 @@ function sizeSatisfies(pattern, size) {
     return kOperators[operator](localSize, bytes(patternSize));
 }
 
-module.exports = sizeSatisfies;
+export default sizeSatisfies;

@@ -4,7 +4,9 @@
   "description": "Same as SemVer.satisfies but for file size!",
   "main": "index.js",
   "scripts": {
-    "test": "cross-env eslint index.js && jest --coverage"
+    "test": "esm-tape-runner 'test/**/*.js' | tap-monkey",
+    "lint": " eslint index.js",
+    "check": "cross-env npm run lint && npm test"
   },
   "repository": {
     "type": "git",
@@ -23,19 +25,6 @@
     "convert",
     "converter"
   ],
-  "jest": {
-    "collectCoverageFrom": [
-      "index.js"
-    ],
-    "testEnvironment": "node",
-    "testMatch": [
-      "**/test/**/*.js"
-    ],
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/test/fixtures/"
-    ]
-  },
   "author": "GENTILHOMME Thomas <gentilhomme.thomas@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -47,8 +36,11 @@
   },
   "devDependencies": {
     "@slimio/eslint-config": "^4.1.0",
-    "@types/node": "^14.10.1",
-    "cross-env": "^7.0.2",
-    "jest": "^26.4.2"
-  }
+    "@small-tech/esm-tape-runner": "^1.0.3",
+    "@small-tech/tap-monkey": "^1.3.0",
+    "@types/node": "^15.12.0",
+    "cross-env": "^7.0.3",
+    "tape": "^5.2.2"
+  },
+  "type": "module"
 }
