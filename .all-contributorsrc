@@ -17,25 +17,14 @@
         "security",
         "bug"
       ]
-    },
-    {
+     },
+     {
       "login": "Rossb0b",
       "name": "Nicolas Hallaert",
       "avatar_url": "https://avatars.githubusercontent.com/u/39910164?v=4",
       "profile": "https://github.com/Rossb0b",
       "contributions": [
         "doc"
-      ]
-    },
-    {
-      "login": "tony-go",
-      "name": "Tony Gorez",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22824417?v=4",
-      "profile": "http://tonygo.dev",
-      "contributions": [
-        "code",
-        "doc",
-        "review"
       ]
     }
   ],
