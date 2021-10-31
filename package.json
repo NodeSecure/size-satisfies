@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "cross-env eslint index.js",
     "test-only": "cross-env esm-tape-runner 'test/**/*.js' | tap-monkey",
-    "test": "npm run lint && npm test"
+    "test": "npm run lint && npm run test-only"
   },
   "repository": {
     "type": "git",
