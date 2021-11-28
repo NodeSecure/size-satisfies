@@ -1,6 +1,6 @@
 {
   "name": "@nodesecure/size-satisfies",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Same as SemVer.satisfies but for file size!",
   "exports": "./index.js",
   "scripts": {
