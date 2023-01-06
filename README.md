@@ -1,9 +1,11 @@
 # `size-satisfies`
 ![version](https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/NodeSecure/size-satisfies/master/package.json&query=$.version&label=Version)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/NodeSecure/size-satisfies/commit-activity)
+[![OpenSSF
+Scorecard](https://api.securityscorecards.dev/projects/github.com/NodeSecure/size-satisfies/badge)](https://api.securityscorecards.dev/projects/github.com/NodeSecure/size-satisfies)
 ![MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
 ![size](https://img.shields.io/github/languages/code-size/NodeSecure/size-satisfies)
-![build](https://img.shields.io/github/workflow/status/NodeSecure/size-satisfies/Node.js%20CI)
+![build](https://img.shields.io/github/actions/workflow/status/NodeSecure/size-satisfies/node.js.yml)
 
 Same as SemVer.satisfies but for file size!
 
