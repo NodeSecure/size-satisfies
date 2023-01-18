@@ -1,7 +1,6 @@
 # `size-satisfies`
 
 ![version](https://img.shields.io/badge/dynamic/json.svg?style=for-the-badge&url=https://raw.githubusercontent.com/NodeSecure/size-satisfies/master/package.json&query=$.version&label=Version)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/NodeSecure/size-satisfies/commit-activity)
 [![OpenSSF
 Scorecard](https://api.securityscorecards.dev/projects/github.com/NodeSecure/size-satisfies/badge?style=for-the-badge)](https://api.securityscorecards.dev/projects/github.com/NodeSecure/size-satisfies)
 ![MIT](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)
