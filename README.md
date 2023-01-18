@@ -11,7 +11,7 @@ Same as SemVer.satisfies but for file size!
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/en/) v12 or higher
+- [Node.js](https://nodejs.org/en/) v16 or higher
 
 ## Getting Started
 
