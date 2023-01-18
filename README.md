@@ -1,15 +1,17 @@
 # `size-satisfies`
-![version](https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/NodeSecure/size-satisfies/master/package.json&query=$.version&label=Version)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/NodeSecure/size-satisfies/commit-activity)
+
+![version](https://img.shields.io/badge/dynamic/json.svg?style=for-the-badge&url=https://raw.githubusercontent.com/NodeSecure/size-satisfies/master/package.json&query=$.version&label=Version)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/NodeSecure/size-satisfies/commit-activity)
 [![OpenSSF
-Scorecard](https://api.securityscorecards.dev/projects/github.com/NodeSecure/size-satisfies/badge)](https://api.securityscorecards.dev/projects/github.com/NodeSecure/size-satisfies)
-![MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
-![size](https://img.shields.io/github/languages/code-size/NodeSecure/size-satisfies)
-![build](https://img.shields.io/github/actions/workflow/status/NodeSecure/size-satisfies/node.js.yml)
+Scorecard](https://api.securityscorecards.dev/projects/github.com/NodeSecure/size-satisfies/badge?style=for-the-badge)](https://api.securityscorecards.dev/projects/github.com/NodeSecure/size-satisfies)
+![MIT](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)
+![size](https://img.shields.io/github/languages/code-size/NodeSecure/size-satisfies?style=for-the-badge)
+![build](https://img.shields.io/github/actions/workflow/status/NodeSecure/size-satisfies/node.js.yml?style=for-the-badge)
 
 Same as SemVer.satisfies but for file size!
 
 ## Requirements
+
 - [Node.js](https://nodejs.org/en/) v12 or higher
 
 ## Getting Started
@@ -40,15 +42,17 @@ The first argument of the `sizeSatisfies` method is the pattern with the operato
 ## API
 
 ### sizeSatisfies(pattern: string, size: number | string): boolean
+
 When the size is a string we convert it to a bytes number. When the argument is a number we consider the value as bytes.
 
 Invalid pattern will always return **false**.
 
-
 ## Contributors ✨
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -71,4 +75,5 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## License
+
 MIT
