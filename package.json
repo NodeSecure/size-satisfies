@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "cross-env eslint index.js",
     "test-only": "cross-env esm-tape-runner 'test/**/*.js' | tap-monkey",
-    "test": "npm run lint && npm run test-only"
+    "test": "node --test test/"
   },
   "repository": {
     "type": "git",
@@ -39,10 +39,7 @@
   },
   "devDependencies": {
     "@nodesecure/eslint-config": "^1.6.0",
-    "@small-tech/esm-tape-runner": "^2.0.0",
-    "@small-tech/tap-monkey": "^1.4.0",
-    "cross-env": "^7.0.3",
-    "tape": "^5.6.3"
+    "cross-env": "^7.0.3"
   },
   "type": "module"
 }

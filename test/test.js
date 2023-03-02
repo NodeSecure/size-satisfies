@@ -1,21 +1,23 @@
-import test from "tape";
+import { test } from "node:test";
+import assert from "node:assert";
+
 
 // Require Internal Dependencies
 import sizeSatisfies from "../index.js";
 
-test("invalid operator always return false", (tape) => {
-  tape.strictEqual(sizeSatisfies("!! 45KB", "45KB"), false);
-  tape.end();
+test("invalid operator always return false", () => {
+  assert.strictEqual(sizeSatisfies("!! 45KB", "45KB"), false);
 });
 
-test("assert sizeSatisfies", (tape) => {
-  tape.strictEqual(sizeSatisfies(">= 45KB", "20MB"), true);
-  tape.strictEqual(sizeSatisfies("<= 45KB", "10B"), true);
-  tape.strictEqual(sizeSatisfies("= 45KB", "45KB"), true);
-  tape.strictEqual(sizeSatisfies("= 45KB", "46KB"), false);
-  tape.strictEqual(sizeSatisfies("= 45KB", 2000), false);
-  tape.strictEqual(sizeSatisfies("> 45KB", "46KB"), true);
-  tape.strictEqual(sizeSatisfies("> 45KB", "45KB"), false);
-  tape.strictEqual(sizeSatisfies("< 45KB", "44KB"), true);
-  tape.end();
+test("assert sizeSatisfies", () => {
+  assert.strictEqual(sizeSatisfies(">= 45KB", "20MB"), true);
+  assert.strictEqual(sizeSatisfies("<= 45KB", "10B"), true);
+  assert.strictEqual(sizeSatisfies("= 45KB", "45KB"), true);
+  assert.strictEqual(sizeSatisfies("= 45KB", "46KB"), false);
+  assert.strictEqual(sizeSatisfies("= 45KB", 2000), false);
+  assert.strictEqual(sizeSatisfies("> 45KB", "46KB"), true);
+  assert.strictEqual(sizeSatisfies("> 45KB", "45KB"), false);
+  assert.strictEqual(sizeSatisfies("< 45KB", "44KB"), true);
 });
+
+
