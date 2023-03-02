@@ -5,8 +5,8 @@
   "exports": "./index.js",
   "scripts": {
     "lint": "cross-env eslint index.js",
-    "test-only": "cross-env esm-tape-runner 'test/**/*.js' | tap-monkey",
-    "test": "node --test test/"
+    "test-only": "node --test test/",
+    "test": "npm run lint && npm run test-only"
   },
   "repository": {
     "type": "git",
