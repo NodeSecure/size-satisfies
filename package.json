@@ -4,7 +4,7 @@
   "description": "Same as SemVer.satisfies but for file size!",
   "exports": "./index.js",
   "scripts": {
-    "lint": "cross-env eslint index.js",
+    "lint": "eslint index.js",
     "test-only": "node --test test/",
     "test": "npm run lint && npm run test-only"
   },
@@ -38,8 +38,7 @@
     "bytes": "^3.1.2"
   },
   "devDependencies": {
-    "@nodesecure/eslint-config": "^1.6.0",
-    "cross-env": "^7.0.3"
+    "@nodesecure/eslint-config": "^1.6.0"
   },
   "type": "module"
 }
