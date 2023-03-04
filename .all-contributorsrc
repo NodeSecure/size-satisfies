@@ -55,6 +55,15 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "clbcky",
+      "name": "clbcky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/113340767?v=4",
+      "profile": "https://github.com/clbcky",
+      "contributions": [
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 7,
