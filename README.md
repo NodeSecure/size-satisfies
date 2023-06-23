@@ -3,7 +3,7 @@
 ![version](https://img.shields.io/badge/dynamic/json.svg?style=for-the-badge&url=https://raw.githubusercontent.com/NodeSecure/size-satisfies/master/package.json&query=$.version&label=Version)
 [![OpenSSF
 Scorecard](https://api.securityscorecards.dev/projects/github.com/NodeSecure/size-satisfies/badge?style=for-the-badge)](https://api.securityscorecards.dev/projects/github.com/NodeSecure/size-satisfies)
-![MIT](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)
+![MIT](https://img.shields.io/github/license/NodeSecure/size-satisfies.svg?style=for-the-badge)
 ![size](https://img.shields.io/github/languages/code-size/NodeSecure/size-satisfies?style=for-the-badge)
 ![build](https://img.shields.io/github/actions/workflow/status/NodeSecure/size-satisfies/node.js.yml?style=for-the-badge)
 
