@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This package has been migrated to the [CLI workspaces](https://github.com/NodeSecure/cli/tree/master/workspaces/size-satisfies)
+
 # `size-satisfies`
 
 ![version](https://img.shields.io/badge/dynamic/json.svg?style=for-the-badge&url=https://raw.githubusercontent.com/NodeSecure/size-satisfies/master/package.json&query=$.version&label=Version)
